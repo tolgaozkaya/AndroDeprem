@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="AndroDeprem"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_latest_earthquakes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded_primary"
+        android:onClick="openLatestEarthquakesActivity"
+        android:text="Son Depremler"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_nearby_earthquakes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_rounded_primary"
+        android:onClick="openNearbyEarthquakesActivity"
+        android:text="Yakındaki Depremler"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_search_earthquakes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_rounded_primary"
+        android:onClick="openSearchEarthquakesActivity"
+        android:text="Deprem Ara"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

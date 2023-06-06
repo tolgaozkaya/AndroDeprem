@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroDeprem">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- LatestEarthquakesActivity -->
+        <activity
+            android:name=".LatestEarthquakesActivity"
+            android:label="Son Depremler"
+            android:exported="true">
+            <!-- Add any required intent filters for the activity -->
+        </activity>
+
+        <!-- NearbyEarthquakesActivity -->
+        <activity
+            android:name=".NearbyEarthquakesActivity"
+            android:label="Yakındaki Depremler"
+            android:exported="true">
+            <!-- Add any required intent filters for the activity -->
+        </activity>
+
+        <!-- EarthquakeArchiveActivity -->
+        <activity
+            android:name=".EarthquakeArchiveActivity"
+            android:label="Deprem Ara"
+            android:exported="true">
+            <!-- Add any required intent filters for the activity -->
+        </activity>
+
+    </application>
+
+</manifest>

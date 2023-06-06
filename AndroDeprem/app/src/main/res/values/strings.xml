@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroDeprem</string>
+    <string name="baslik">SON DEPREMLER LİSTESİ</string>
+    <string name="dSaatBaslik">SAAT</string>
+    <string name="dTarihBaslik">TARİH</string>
+    <string name="dDerinlikBaslik">DERİNLİK</string>
+</resources>
