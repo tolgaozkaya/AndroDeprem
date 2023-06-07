@@ -29,11 +29,22 @@ AndroDeprem, kullanıcılara son deprem bilgilerini sunmayı amaçlayan bir Andr
 - Konum Hizmetleri
 - AsyncTask
 
-## Ekran Görüntüleri
 
-| Ana Sayfa | Son Depremler | Yakındaki Depremler | Deprem Arama |
-|---|---|---|---|
-| <img src="./screenshots/screenshot1.png" width="200" height="400"> | <img src="./screenshots/screenshot2.png" width="200" height="400"> | <img src="./screenshots/screenshot3.png" width="200" height="400"> | <img src="./screenshots/screenshot4.png" width="200" height="400"> |
+## Ana Sayfa
+
+<img src="./screenshots/screenshot1.png" alt="Ana Sayfa" width="350" /><br><br>
+
+## Son Depremler
+
+<img src="./screenshots/screenshot2.png" alt="Son Depremler" width="350" /><br><br>
+
+## Yakındaki Depremler
+
+<img src="./screenshots/screenshot3.png" alt="Yakındaki Depremler" width="350" /><br><br>
+
+## Deprem Arama
+
+<img src="./screenshots/screenshot4.png" alt="Deprem Arama" width="350" /><br><br>
 
 
 ## Lisans
