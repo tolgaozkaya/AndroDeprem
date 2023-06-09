@@ -32,19 +32,19 @@ AndroDeprem, kullanıcılara son deprem bilgilerini sunmayı amaçlayan bir Andr
 
 ## Ana Sayfa
 
-<img src="./screenshots/screenshot1.png" alt="Ana Sayfa" width="350" /><br><br>
+<img src="./screenshots/screenshot1.png" alt="Ana Sayfa" width="300" /><br><br>
 
 ## Son Depremler
 
-<img src="./screenshots/screenshot2.png" alt="Son Depremler" width="350" /><br><br>
+<img src="./screenshots/screenshot2.png" alt="Son Depremler" width="300" /><br><br>
 
 ## Yakındaki Depremler
 
-<img src="./screenshots/screenshot3.png" alt="Yakındaki Depremler" width="350" /><br><br>
+<img src="./screenshots/screenshot3.png" alt="Yakındaki Depremler" width="300" /><br><br>
 
 ## Deprem Arama
 
-<img src="./screenshots/screenshot4.png" alt="Deprem Arama" width="350" /><br><br>
+<img src="./screenshots/screenshot4.png" alt="Deprem Arama" width="300" /><br><br>
 
 
 ## Lisans
